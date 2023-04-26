@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+form {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+button:hover {
+	background-color: #3E8E41;
+}
+
+/* Add styles for chapter input fields */
+#chapters {
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+	height: 500px; /* set height to make box bigger */
+	overflow-y: auto; /* add scrollbar when content overflows */
+}
+
+.chapter {
+	margin-bottom: 20px;
+}
+
+.chapter-title {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.chapter-content {
+	height: 200px; /* set height to make box bigger */
+	resize: vertical;
+}
+
+/* Remove styles for story content */
+#story-content {
+	display: none;
+}

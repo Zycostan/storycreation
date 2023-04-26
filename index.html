@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Zyc's Story Maker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Story Maker</h1>
+    <form id="story-form">
+      <label for="story-title">Story Title</label>
+      <input type="text" id="story-title" name="story-title" required>
+
+      <div id="chapters">
+        <div class="chapter">
+          <label for="chapter-1-title">Chapter 1 Title</label>
+          <input type="text" id="chapter-1-title" name="chapter-title[]" required>
+
+          <label for="chapter-1-content">Chapter 1 Content</label>
+          <textarea id="chapter-1-content" name="chapter-content[]" required></textarea>
+        </div>
+      </div>
+
+      <button type="button" id="add-chapter-btn">Add Chapter</button>
+      <button type="button" id="save-story-btn">Save Story</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
